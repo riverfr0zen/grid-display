@@ -63,8 +63,10 @@ func update_rect():
 
 
 func _draw() -> void:
-	if draw_border: _draw_rect()
-	if draw_grid: _draw_grid()
+	if draw_border:
+		_draw_rect()
+	if draw_grid:
+		_draw_grid()
 
 
 func _draw_rect():
